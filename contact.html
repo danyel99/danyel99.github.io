@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">   
+
+    <title>Contact - Bryan's Café</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html"><img src="logocafe.jpg" alt="Bryan's Café Logo"></a>
+            <ul>
+                <li><a href="index.html">About</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="contact-form">   
+
+            <h2>Contact Us</h2>
+            <form id="enquiryForm" onsubmit="handleSubmit(event)"> 
+                <input type="text" name="firstName" placeholder="First Name" required>
+                <input type="text" name="lastName" placeholder="Last Name"   
+ required>   
+                <input type="email" name="email" placeholder="Email" required>
+                <input type="text" name="subject" placeholder="Subject" required>
+                <textarea   
+ name="message" placeholder="Message" required></textarea>
+                <button type="submit">Submit</button>   
+
+            </form>
+        </section>
+        <section class="branches">
+            <h2>Our Branches</h2>
+            <h3>Phone number: 0415928270</h3>
+            <div id="branchList"></div>
+        </section>
+    </main>
+    <footer>
+        <p id="footerText"></p>
+        <a href="privacy.html" target="_blank">Privacy Policy</a> 
+    </footer>
+    <script>
+        // Load branch data from XML 
+        document.addEventListener('DOMContentLoaded', () => {
+          loadBranches();
+        });
+    </script>
+</body>
+</html>

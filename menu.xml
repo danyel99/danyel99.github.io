@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE menu SYSTEM "menu.dtd">
+<menu>
+    <meal>
+        <name>Beetroot and feta salad</name>
+        <price>$15.00</price>
+        <description>Suitable for vegetarians, made with fresh beetroot</description>
+        <image>betroot.jpg</image>
+    </meal>
+    <meal>
+        <name>Sourdough Rye Sandwich</name>
+        <price>$18.00</price>
+        <description>Cheese and salad sandwich made with organic, sourdough rye bread</description>
+        <image>sourdough.jpg</image>
+    </meal>
+    <meal>
+        <name>Spinach Pie and Salad</name>
+        <price>$20.00</price>
+        <description>Tasty pie with salad</description>
+        <image>spinachpie.jpg</image>
+    </meal>
+    <meal>
+        <name>Feta pancakes with salad</name>
+        <price>$19.50</price>
+        <description>Tasty pancake filled with feta and salad</description>
+        <image>fetapancake.jpg</image>
+    </meal>
+    <beverage>
+        <name>Small Coffee</name>
+        <price>$3.50</price>
+        <description>For coffee, please inform the staff of the coffee type.</description>
+        <image>coffee.jpg</image>
+    </beverage>
+    <beverage>
+        <name>Fresh juice</name>    
+        <price>$6.00</price>
+        <description>Refreshing natural juice</description>
+        <image>juice.jpg</image>
+    </beverage>
+    <beverage>
+        <name>Regular Coffee</name>
+        <price>$4.00</price>
+        <description>For coffee, please inform the staff of the coffee type.</description>
+        <image>coffee.jpg</image>
+    </beverage>
+    <beverage>
+        <name>Large Coffee</name>
+        <price>$4.50</price>
+        <description>For coffee, please inform the staff of the coffee type.</description>
+        <image>coffee.jpg</image>
+    </beverage>
+    <beverage>
+        <name>Soda</name>
+        <price>$3.00</price>
+        <description>For coffee, please inform the staff of the coffee type.</description>
+        <image>soda.png</image>
+    </beverage>
+    <beverage>
+        <name>Water</name>
+        <price>$2.00</price>
+        <description>For coffee, please inform the staff of the coffee type.</description>
+        <image>Water.png</image>
+    </beverage>
+    <beverage>
+        <name>Small Chocolate</name>
+        <price>$3.50</price>
+        <description>For coffee, please inform the staff of the coffee type.</description>
+        <image>chocolate.png</image>
+    </beverage>
+    <beverage>
+        <name>Regular Chocolate</name>
+        <price>$4.00</price>
+        <description>For coffee, please inform the staff of the coffee type.</description>
+        <image>chocolate.png</image>
+    </beverage>
+    <beverage>
+        <name>Large Chocolate</name>
+        <price>$4.50</price>
+        <description>For coffee, please inform the staff of the coffee type.</description>
+        <image>chocolate.png</image>
+    </beverage>
+   
+</menu>

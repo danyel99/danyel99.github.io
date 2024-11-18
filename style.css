@@ -1,0 +1,216 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;  /* Remove default margin */
+    padding: 0; /* Remove default padding */
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+header {
+    background-color: #63371c;
+    color: white;
+    padding: 0px 0;
+    text-align: center;
+    position: relative;
+    top: 0;
+    z-index: 1000; 
+    border: none; 
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+header nav a img {
+    height: 100px;
+}
+
+header nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+header nav ul li {
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Main Content Styles */
+main {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 0 20px;
+}
+
+/* Banner Styles */
+.banner {
+    background-color: #63371c;
+    color: white;
+    text-align: center;
+    padding: 50px 0;
+    margin-bottom: 20px;
+}
+
+.banner h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+/* Section Styles */
+section {
+    margin-bottom: 30px;
+}
+
+.about, .history {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.about img, .history img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 10px;
+    border-radius: 8px;
+}
+
+/* Menu Styles */
+.menu {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.menu-item {
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin-bottom: 20px;
+    text-align: center;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.menu-item img {
+    max-width: 30%;
+    height: auto;
+    margin-bottom: 10px;
+    border-radius: 8px;
+}
+
+.menu-item h4 {
+    margin: 10px 0 5px;
+    font-size: 1.2em;
+    color: #4CAF50;
+}
+
+/* Form Styles */
+.contact-form form {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-form input, .contact-form textarea, .contact-form button {
+    font-size: 1em;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    width: 100%;
+}
+
+.contact-form button {
+    background-color: #63371c;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.contact-form button:hover {
+    background-color: #45a049;
+}
+
+/* Branch Styles */
+.branches {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.branches div {
+    margin-bottom: 15px;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #63371c;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    position: relative;
+    width: 100%;
+    bottom: 0;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    header nav {
+        flex-direction: column;
+    }
+
+    header nav ul {
+        flex-direction: column;
+        margin-top: 10px;
+    }
+
+    header nav ul li {
+        margin-bottom: 10px;
+    }
+
+    .banner h1 {
+        font-size: 2em;
+    }
+
+    .menu-item {
+        text-align: left;
+    }
+
+    .contact-form form {
+        width: 100%;
+    }
+}
