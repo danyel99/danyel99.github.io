@@ -1,6 +1,7 @@
+
 body {
     font-family: Arial, sans-serif;
-    margin: 0; /* Remove default margin */
+    margin: 0;  /* Remove default margin */
     padding: 0; /* Remove default padding */
     background-color: #f9f9f9;
     color: #333;
@@ -99,7 +100,7 @@ section {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-.menu-item { 
+.menu-item {
     border: 1px solid #ddd;
     padding: 15px;
     margin-bottom: 20px;
@@ -132,7 +133,6 @@ section {
     flex-direction: column;
 }
 
-
 .contact-form input, .contact-form textarea, .contact-form button {
     font-size: 1em;
     padding: 10px;
@@ -151,7 +151,7 @@ section {
 }
 
 .contact-form button:hover {
-    background-color: #45a049; 
+    background-color: #45a049;
 }
 
 /* Branch Styles */
