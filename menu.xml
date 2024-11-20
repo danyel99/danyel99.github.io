@@ -2,12 +2,6 @@
 <!DOCTYPE menu SYSTEM "menu.dtd">
 <menu>
     <meal>
-        <name>Beetroot and feta salad</name>
-        <price>$15.00</price>
-        <description>Suitable for vegetarians, made with fresh beetroot</description>
-        <image>betroot.jpg</image>
-    </meal>
-    <meal>
         <name>Sourdough Rye Sandwich</name>
         <price>$18.00</price>
         <description>Cheese and salad sandwich made with organic, sourdough rye bread</description>
@@ -24,6 +18,12 @@
         <price>$19.50</price>
         <description>Tasty pancake filled with feta and salad</description>
         <image>fetapancake.jpg</image>
+    </meal>
+    <meal>
+        <name>Beetroot and feta salad</name>
+        <price>$15.00</price>
+        <description>Suitable for vegetarians, made with fresh beetroot</description>
+        <image>betroot.jpg</image>
     </meal>
     <beverage>
         <name>Small Coffee</name>
