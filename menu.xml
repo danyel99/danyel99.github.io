@@ -5,7 +5,7 @@
         <name>Beetroot and feta salad</name>
         <price>$15.00</price>
         <description>Suitable for vegetarians, made with fresh beetroot</description>
-        <image>betroot.jpg</image>
+        <image>Betroot.jpg</image>
     </meal>
     <meal>
         <name>Sourdough Rye Sandwich</name>
@@ -17,7 +17,7 @@
         <name>Spinach Pie and Salad</name>
         <price>$20.00</price>
         <description>Tasty pie with salad</description>
-        <image>spinachpie.jpg</image>
+        <image>Spinachpie.jpg</image>
     </meal>
     <meal>
         <name>Feta pancakes with salad</name>
